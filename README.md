@@ -105,13 +105,13 @@ Create a new API route that handles:
 
 ### 3. Requirements Checklist
 
-- [ ] AI generates appropriate Primary 5 level math problems
-- [ ] Problems and answers are saved to Supabase
-- [ ] User submissions are saved with feedback
-- [ ] AI generates helpful, personalized feedback
-- [ ] UI is clean and mobile-responsive
-- [ ] Error handling for API failures
-- [ ] Loading states during API calls
+- [X] AI generates appropriate Primary 5 level math problems
+- [X] Problems and answers are saved to Supabase
+- [X] User submissions are saved with feedback
+- [X] AI generates helpful, personalized feedback
+- [X] UI is clean and mobile-responsive
+- [X] Error handling for API failures
+- [X] Loading states during API calls
 
 ## Deployment
 
@@ -130,8 +130,8 @@ When submitting your assessment, provide:
 2. **Live Demo URL**: Your Vercel deployment
 3. **Supabase Credentials**: Add these to your README for testing:
    ```
-   SUPABASE_URL: [Your Supabase Project URL]
-   SUPABASE_ANON_KEY: [Your Supabase Anon Key]
+   SUPABASE_URL: https://hnojazpttzgqthdivigf.supabase.co
+   SUPABASE_ANON_KEY: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imhub2phenB0dHpncXRoZGl2aWdmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTk2NDI1OTAsImV4cCI6MjA3NTIxODU5MH0.QvZDonw4RPUxm-gWxMjKfyehuYLJeyxQyNqsfXL_CVo
    ```
 
 ## Implementation Notes
@@ -140,9 +140,11 @@ When submitting your assessment, provide:
 
 ### My Implementation:
 
-- 
-- 
-- 
+- Used Google Gemini API for generating math problems and feedback
+- Connected Supabase for storing problems and user submissions
+- Implemented feedback and problem generation fully with real-time UI updates
+- Added loading states and simple error handling
+- Improved UI/UX with a clean, responsive design, modern cards, smooth transitions, and child-friendly visuals for better engagement
 
 ## Additional Features (Optional)
 
